@@ -17,4 +17,3 @@
 #         counter = 0
 #     else:
 #         move()
-#         cpunter = 0
