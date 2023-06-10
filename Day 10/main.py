@@ -32,7 +32,7 @@ def calculator():
         function = operations[symbol]
         result = function(num1,num2)
         print(f"{num1} {symbol} {num2} = {result}")
-        yesOrNo = input(f"Type'y' to continue calculatin with {result} or 'n' to start a new calculation: ")
+        yesOrNo = input(f"Type'y' to continue calculating with {result} or 'n' to start a new calculation: ")
         if yesOrNo == "y":
             num1 = result
         else:
