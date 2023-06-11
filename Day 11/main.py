@@ -80,7 +80,7 @@ def playGame():
         if userScore == 0 or computerScore == 0 or userScore > 21:
             gameOver = True
         else:
-            userHit = input("\nType h' to Hit(get another card) or 's' to Stand: ")
+            userHit = input("\nType 'h' to Hit(get another card) or 's' to Stand: ")
             if userHit == "h":
                 userCards.append(dealCard())
             else:
