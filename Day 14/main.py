@@ -26,8 +26,8 @@ while not gameOver:
 
     if choice == "a" or choice == "A":
         if HasMoreFollowers(accountA,accountB):
-            print(f"Correct, Current score: {score}")
             score += 1
+            print(f"Correct, Current score: {score}")
             accountA = accountB
         else:
             print("Wrong, GAME OVER")
@@ -35,8 +35,8 @@ while not gameOver:
             gameOver = True
     else:
         if HasMoreFollowers(accountB,accountA):
-            print(f"Correct, Current score: {score}")
             score += 1
+            print(f"Correct, Current score: {score}")
             accountA = accountB
         else:
             print("Wrong, GAME OVER")
